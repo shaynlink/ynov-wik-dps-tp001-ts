@@ -14,8 +14,14 @@ node ./build/index.js
 Default port is `3000`
 
 ### Start project with setting port
+#### Windows
 ```sh
-export PING_LISTEN_PORT=3000 && node ./build/index.js
+export PING_LISTEN_PORT=3030 && node ./build/index.js
+```
+
+#### Linux / MacOS
+```sh
+PING_LISTEN_PORT=3030 node ./build/index.js
 ```
 
 # Usage
